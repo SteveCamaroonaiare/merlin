@@ -40,6 +40,10 @@ export function Header() {
             <Link href="/governments" className="text-sm font-medium hover:text-primary transition-colors">
               CEROS Governments
             </Link>
+            <Link href="/about" className="text-sm font-medium hover:text-primary transition-colors">
+              About
+            </Link>
+
             <Button variant="outline" size="sm">
               English
             </Button>
@@ -67,6 +71,9 @@ export function Header() {
               <Link href="/governments" className="text-sm font-medium hover:text-primary transition-colors">
                 CEROS Governments
               </Link>
+              <Link href="/about" className="text-sm font-medium hover:text-primary transition-colors">
+              About
+            </Link>
               <Button variant="outline" size="sm" className="w-fit bg-transparent">
                 English
               </Button>
